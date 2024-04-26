@@ -1,6 +1,6 @@
 package Entidades;
 
-class Cliente extends Thread {
+public class Cliente extends Thread {
     private static final double[] valoresCompras = {100.0, 200.0}; // Valores das compras possíveis
     private Conta conta;
     private Loja[] lojas;

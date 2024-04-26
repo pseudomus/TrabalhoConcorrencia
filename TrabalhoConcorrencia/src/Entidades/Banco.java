@@ -2,7 +2,7 @@ package Entidades;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
-class Banco {
+public class Banco {
     private Lock lock = new ReentrantLock();
 
     public synchronized void transferencia(Conta origem, Conta destino, double valor) {
